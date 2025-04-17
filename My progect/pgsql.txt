@@ -1,0 +1,24 @@
+meethere/
+│
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── routes/
+│   │   ├── models/
+│   │   ├── middleware/
+│   │   └── index.js
+│   ├── prisma/
+│   │   └── schema.prisma
+│   ├── .env
+│   └── Dockerfile
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   └── App.js
+│   ├── .env
+│   └── Dockerfile
+│
+└── docker-compose.yml
